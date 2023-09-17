@@ -1,2 +1,6 @@
 #theme: 'jekyll-theme-chirpy'
-remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+plugins:
+  - jekyll-include-cache
+  
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
